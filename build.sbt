@@ -34,7 +34,8 @@ lazy val root = (project in file("."))
         "org.slf4j" % "slf4j-simple" % slf4jVersion,
         "org.scalatest" %% "scalatest" % scalaTestVersion,
         "org.testcontainers" % "mysql" % testcontainersVersion,
-        "org.testcontainers" % "postgresql" % testcontainersVersion
+        "org.testcontainers" % "postgresql" % testcontainersVersion,
+        "org.testcontainers" % "kafka" % testcontainersVersion
       )
         ++ TEST(
         "mysql" % "mysql-connector-java" % mysqlConnectorVersion,
